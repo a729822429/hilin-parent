@@ -1,3 +1,4 @@
 icu.hilin.web.WebAutoConfig
-icu.hilin.web.ResponseOuterWrappingHandler
+icu.hilin.web.response.ResponseOuterWrappingHandler
 icu.hilin.web.GlobalExceptionHandler
+icu.hilin.web.filter.HilinFilter

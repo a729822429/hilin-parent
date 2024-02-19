@@ -1,4 +1,4 @@
-package icu.hilin.web;
+package icu.hilin.web.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

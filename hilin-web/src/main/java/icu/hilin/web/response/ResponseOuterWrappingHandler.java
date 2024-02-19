@@ -1,4 +1,4 @@
-package icu.hilin.web;
+package icu.hilin.web.response;
 
 import cn.hutool.json.JSONUtil;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
