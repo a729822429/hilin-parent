@@ -24,4 +24,9 @@ public class MybatisPlusAutoConfig {
         return interceptor;
     }
 
+    @Bean
+    public MybatisPlusHandler mybatisPlusHandler(){
+        return new MybatisPlusHandler();
+    }
+
 }
