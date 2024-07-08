@@ -84,42 +84,6 @@
                 <version>${hilin.version}</version>
             </dependency>
             <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-user</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-user-api</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-open</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-message</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-message-core</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-message-arch-longpoll</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>icu.hilin</groupId>
-                <artifactId>hilin-open-api</artifactId>
-                <version>${hilin.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
