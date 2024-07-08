@@ -1,0 +1,4 @@
+icu.hilin.web.WebAutoConfig
+icu.hilin.web.response.ResponseOuterWrappingHandler
+icu.hilin.web.GlobalExceptionHandler
+icu.hilin.web.CorsConfig
