@@ -1,0 +1,10 @@
+server.port: 18080
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: test
+          predicates:
+            - Path=/**
+          uri: lb://hilin-test
+spring.main.web-application-type: reactive

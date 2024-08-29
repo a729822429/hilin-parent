@@ -1,0 +1,9 @@
+server.port: 8889
+spring:
+  application:
+    name: hilin-test
+icu:
+  hilin:
+    redis:
+      discovery:
+        ip: 192.168.0.193

@@ -22,6 +22,9 @@
         <module>hilin-web</module>
         <module>hilin-rabbitmq</module>
         <module>hilin-mongo</module>
+        <module>cloud/hilin-cloud-redis-discovery</module>
+        <module>cloud/hilin-gateway</module>
+        <module>cloud/hilin-dns</module>
     </modules>
 
     <properties>
@@ -95,11 +98,17 @@
                 <groupId>icu.hilin</groupId>
                 <artifactId>hilin-mongo</artifactId>
                 <version>${hilin.version}</version>
-            </dependency><dependency>
-            <groupId>icu.hilin</groupId>
-            <artifactId>hilin-rabbitmq</artifactId>
-            <version>${hilin.version}</version>
-        </dependency>
+            </dependency>
+            <dependency>
+                <groupId>icu.hilin</groupId>
+                <artifactId>hilin-rabbitmq</artifactId>
+                <version>${hilin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>icu.hilin</groupId>
+                <artifactId>hilin-cloud-redis-discovery</artifactId>
+                <version>${hilin.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
